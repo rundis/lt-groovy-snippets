@@ -1,0 +1,42 @@
+{:modes {:+ #{:editor.groovy}}
+ :helper "groovy.js"
+ :snippets [{:name "Groovy: Class file"
+             :key "clsf"
+             :snippet-file "classFile.snip"
+             }
+            {:name "Groovy: Class"
+             :key "cls"
+             :snippet-file "class.snip"
+             }
+            {:name "Groovy: method"
+             :key "met"
+             :snippet-file "method.snip"}
+            {:name "Groovy: Try Catch"
+             :key "tc"
+             :snippet-file "tryCatch.snip"}
+            {:name "Groovy: Assert"
+             :key "ase"
+             :snippet "assert ${1:expected} == ${2:actual}"
+             }
+            {:name "Groovy: Refute equal (assert not equal)"
+             :key "ree"
+             :snippet "assert ${1:expected} != ${2:actual}"
+             }
+            {:name "Groovy: Dummy delete"
+             :key "gd"
+             :snippet "Hello ${1:Dill} results in: ${1:__snip$.groovy.toUpper__}"}
+            {:name "Groovy: Spock spec file"
+             :key "spsf"
+             :snippet-file "specFile.snip"}
+            {:name "Groovy: Spock test"
+             :key "spt"
+             :no-indent true
+             :snippet-file "spockTest.snip"}
+            {:name "Groovy: Spock setup"
+             :key "spsu"
+             :snippet "setup() {\n    $0\n}"}
+            {:name "Groovy: Spock cleanup"
+             :key "spcu"
+             :snippet "cleanup() {\n    $0\n}"}
+
+            ]}

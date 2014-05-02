@@ -1,0 +1,5 @@
+def "${1:name}"() {
+    when:"${2:Something triggered}"
+        $0
+    then:"${3:Something should happen}"
+}
